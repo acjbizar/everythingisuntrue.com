@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "20190728",
+    "name": "Everything is (un)true",
+    "default_locale": "en",
+    "description": "Superpositionalisms. This is not art. This is not something. This is untrue. 2015.",
+    "author": "Alexander Christiaan Jacob",
+    "theme_color": "#ffffff",
+    "homepage_url": "https://everythingisuntrue.com/",
+    "start_url": "https://everythingisuntrue.com/",
+    "icons": [
+        {
+            "src": "https://everythingisuntrue.com/apple-touch-icon.png"
+        }
+    ],
+    "display": "fullscreen"
+}
