@@ -142,9 +142,14 @@
         return 'linear-gradient(to bottom,'+c1.rgb+' 0%,'+c2.rgb+' 100%)';
     }
 
+    var h2s = document.getElementsByTagName('h2');
+
     function rollBg() {
-        $('div.hidden').css('background', newGradient());
-        $('div,h2').toggleClass('hidden');
+        document.querySelector('div.hidden').style.background = newGradient();
+        divs[0].classList.toggle('hidden');
+        divs[1].classList.toggle('hidden');
+        h2s[0].classList.toggle('hidden');
+        h2s[1].classList.toggle('hidden');
     }
 
     $('h2 a').on('click', function(e){
