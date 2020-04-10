@@ -65,8 +65,8 @@
 <div></div>
 <div class="hidden"></div>
 <!--<h1>☉</h1>-->
-<h2><a href="#">Everything is true.</a></h2>
-<h2 class="hidden"><a href="#">Everything is untrue.</a></h2>
+<h2><a href="/">Everything is true.</a></h2>
+<h2 class="hidden"><a href="/">Everything is untrue.</a></h2>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6227584-61"></script>
 <script>
     "use strict";
@@ -154,7 +154,8 @@
     var links = document.getElementsByTagName('a');
 
     for (i = 0; i < links.length; i++) {
-        links[i].addEventListener('click', function(){
+        links[i].addEventListener('click', function(e){
+            e.preventDefault();
             document.querySelector('h2.hidden a').textContent = s[Math.floor(Math.random() * s.length)];
             rollBg();
         });
