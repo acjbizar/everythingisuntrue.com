@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
@@ -116,11 +116,12 @@
         'This is it.',
         'This is not it.'];
 
-    $(document).ready(function(){
-        var t = s[Math.floor(Math.random() * s.length)];
-        //$('h2 a').text(t);
-        $('div').css('background', newGradient());
-    });
+    var t = s[Math.floor(Math.random() * s.length)];
+    var divs = document.getElementsByTagName('div');
+
+    for (var i = 0; i < divs.length; i++) {
+        divs[i].style.background = newGradient();
+    }
 
     function newGradient() {
 
