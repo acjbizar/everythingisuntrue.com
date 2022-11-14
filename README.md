@@ -1,4 +1,4 @@
-# Everything is (un)true
+# [Everything is (un)true](https://everythingisuntrue.com/)
 
 Internet art, 2015.
 
