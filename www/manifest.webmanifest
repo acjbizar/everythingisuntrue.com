@@ -1,0 +1,19 @@
+{
+  "$schema": "https:\/\/json.schemastore.org\/web-manifest-combined.json",
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Everything is (un)true",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://everythingisuntrue.com/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "scope": "/",
+  "id": "https://everythingisuntrue.com/",
+  "theme_color": "white",
+  "background_color": "black"
+}
